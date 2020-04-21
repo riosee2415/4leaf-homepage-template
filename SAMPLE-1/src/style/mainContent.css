@@ -1,0 +1,279 @@
+.mainContent1 {
+  width: 95%;
+  margin: 80px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContent2 {
+  width: 95%;
+  margin: 80px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContent3 {
+  width: 70%;
+  margin: 80px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.mainContent4 {
+  width: 70%;
+  margin: 80px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mc4__tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mc1__title {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #777;
+}
+
+.mc1__desc {
+  font-style: italic;
+  color: #747d8c;
+  margin-bottom: 20px;
+}
+
+.mc1__desc div {
+  margin: 5px 0px;
+}
+
+.mc1__img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mc1__img .mc__img__source {
+  width: 100px;
+  height: 100px;
+  background-color: #e7e7e7;
+  margin: 5px 5px;
+  padding: 10px;
+  color: #fff;
+}
+
+.mc2__image {
+  margin-right: 60px;
+  width: 450px;
+  height: 450px;
+  background-color: #e7e7e7;
+  padding: 10px;
+  color: #fff;
+}
+
+.mc2__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 450px;
+  height: 450px;
+}
+
+.mc2__desc div {
+  margin: 5px 0px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.mc2__desc input {
+  margin: 50px 0px;
+  width: 120px;
+  height: 25px;
+  color: #fff;
+  background-color: #e7e7e7;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.mc3__boxs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.mc3__boxs__tool {
+  width: 150px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 5px;
+  color: #eccc68;
+  font-weight: 600;
+  padding: 15px;
+}
+
+.mc3__desc {
+  margin-top: 30px;
+}
+
+.mc3__desc ul li {
+  margin: 5px 0px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.mc4__boxs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mc4__boxs__box {
+  margin: 5px;
+  width: 150px;
+  height: 190px;
+  border: 1px solid #e7e7e7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 10px #777;
+  font-weight: 600;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.mc4__boxs__box button {
+  position: absolute;
+  bottom: 10px;
+}
+
+.mc4__desc {
+  margin: 0px 80px;
+}
+
+@media (max-width: 1024px) {
+  .mc1__desc div {
+    margin: 5px 0px;
+    font-size: 14px;
+  }
+
+  .mainContent4 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 990px) {
+  .mainContent2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .mc2__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 400px;
+    height: 400px;
+  }
+
+  .mc2__desc div {
+    margin: 5px 0px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .mc2__desc input {
+    margin: 50px 0px;
+    width: 120px;
+    height: 25px;
+    color: #fff;
+    background-color: #e7e7e7;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .mc2__image {
+    margin: 0;
+    width: 400px;
+    height: 400px;
+    background-color: #e7e7e7;
+    padding: 10px;
+    color: #fff;
+  }
+}
+
+@media (max-width: 425px) {
+  .mc2__image {
+    width: 250px;
+    height: 250px;
+    background-color: #e7e7e7;
+    padding: 10px;
+    color: #fff;
+  }
+
+  .mc1__desc div {
+    margin: 5px 0px;
+    font-size: 11px;
+  }
+
+  .mc1__img .mc__img__source {
+    width: 70px;
+    height: 70px;
+    background-color: #e7e7e7;
+    margin: 5px 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: 11px;
+  }
+
+  .mc2__desc {
+    margin-top: 80px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .mc2__desc div {
+    font-size: 11px;
+  }
+
+  .mainContent3 {
+    width: 95%;
+    margin: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .mc4__boxs__box {
+    width: 100px;
+    height: 130px;
+    font-size: 11px;
+  }
+
+  .mc4__desc {
+    font-size: 11px;
+    margin-bottom: 30px;
+  }
+}
