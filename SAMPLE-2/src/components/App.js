@@ -1,4 +1,5 @@
 import React from "react";
+import MenuBar from "./MenuBar";
 
 class App extends React.Component {
   render() {
@@ -11,14 +12,9 @@ class App extends React.Component {
             <div className="ma1__desc">DESC</div>
             <div className="ma1__desc">DESC</div>
           </div>
-
-          <div className="ma1__menu">
-            <div>MENU1</div>
-            <div>MENU2</div>
-            <div>MENU3</div>
-            <div>MENU4</div>
-          </div>
+          <MenuBar />
         </div>
+
         <div className="mainArea__col-2"></div>
       </div>
     );

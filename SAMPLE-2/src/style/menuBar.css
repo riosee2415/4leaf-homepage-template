@@ -1,0 +1,17 @@
+.ma1__menu {
+  margin: 10px 0px;
+  width: 60%;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 12px;
+}
+
+.ma1__menu div {
+  padding: 5px 10px;
+  cursor: pointer;
+}
