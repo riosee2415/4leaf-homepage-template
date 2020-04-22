@@ -1,11 +1,14 @@
 import React from "react";
 import main from "../../assets/images/image/testMain.png";
+import facebookIcon from "../../assets/images/icons/facebook.png";
+import instagramIcon from "../../assets/images/icons/instagram.png";
+import twitterIcon from "../../assets/images/icons/twitter.png";
 
 class SC0000 extends React.Component {
   render() {
     return (
       <div className="main">
-        <img src={main} alt="MAIN" width={"100%"} />
+        <img src={main} alt="MAIN" width={"98%"} />
 
         <div className="main__seper"></div>
 
@@ -20,10 +23,9 @@ class SC0000 extends React.Component {
             </div>
           </div>
           <div className="md__col2">
-            <span>ICON</span>
-            <span>ICON</span>
-            <span>ICON</span>
-            <span>ICON</span>
+            <div className="md__col2__icon"></div>
+            <div className="md__col2__icon"></div>
+            <div className="md__col2__icon"></div>
           </div>
         </div>
       </div>
