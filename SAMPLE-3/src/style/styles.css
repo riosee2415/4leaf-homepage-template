@@ -1,0 +1,21 @@
+@charset "utf-8";
+@import "./reset.css";
+@import "./top.css";
+@import "./menuBar.css";
+@import "./main.css";
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainArea {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

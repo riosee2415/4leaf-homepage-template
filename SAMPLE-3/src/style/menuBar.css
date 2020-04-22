@@ -1,0 +1,28 @@
+.menuBar {
+  width: 500px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.menuBar__item a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+}
+
+.menuBar__item a:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  border-bottom: 1px solid #0b0b0b;
+}
+
+.selectedMenu {
+  text-decoration: none;
+  color: #0b0b0b;
+  font-size: 14px;
+  border-bottom: 1px solid #0b0b0b;
+}
