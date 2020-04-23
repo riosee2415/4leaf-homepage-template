@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import "./reset.css";
 @import "./menuBar.css";
+@import "./menu.css";
 
 body {
   width: 100%;
@@ -16,17 +17,19 @@ body {
 
 .mainArea__col-1 {
   width: 50%;
-  background: linear-gradient(#2d3436, #636e72);
+  background: linear-gradient(#000000, #434343);
   height: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
   position: relative;
 }
 
 .mainArea__col-2 {
   width: 50%;
   height: 100%;
-  background: linear-gradient(#747d8c, #dfe6e9);
+  background: linear-gradient(#bdc3c7, #2c3e50);
 }
 
 .mainArea__col-1 .ma1__topBox {
@@ -52,6 +55,12 @@ body {
   font-weight: 600;
   font-size: 11px;
   margin-top: 100px;
+}
+
+.ma1__content {
+  width: 100%;
+  height: 100%;
+  color: #fff;
 }
 
 @media (max-width: 425px) {
